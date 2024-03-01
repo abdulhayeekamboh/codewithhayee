@@ -1,0 +1,499 @@
+html,body {
+	height: 280%;
+	width:100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	/* background-color: yellow; */
+	height: 100%;
+	width: 100%;
+}
+
+.mobileviewer {
+	display: none;
+}
+
+/* start new */
+.main {
+	height: 100%;
+	width: 100%;
+	background-color: #e4e1e1;
+}
+.nav {
+	width: 100%;
+	height: 7%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 0.7px solid #dadada;
+	background-color: rgb(196, 183, 183);
+}
+.logo {
+	height:19vh;
+	width: 20vw;
+}
+.logo img {
+	height:19vh;
+	width: 20vw;
+	object-fit: cover;
+	margin-left: -5vw;
+
+}
+.navbox {
+	height:19vh;
+	width: 38vw;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+.navbox a{
+	color: white;
+	text-decoration: none;
+	transition: 1.2s;
+}
+.navbox a:hover{
+	color: rgb(104, 101, 101);
+}
+.content1 {
+	height: 32%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+}
+.left {
+	height: 100%;
+	width: 40%;
+	align-items: end;
+	text-align: end;
+	justify-content: end;
+	display: flex;
+}
+.note {
+	width: 25vw;
+	height: 60vh;
+	/* margin-right: -3vw; */
+	text-align: start;
+	align-items: start;
+	justify-content: start;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	/* padding-left: 1vw; */
+	margin-bottom: 8vh;
+
+}
+.note strong {
+	text-align: start;
+}
+.note strong:nth-child(1){
+	background-color: red;
+	color: white;
+	width: 10vw;
+	height: 3.5vh;
+	align-items: center;
+	justify-content: center;
+	text-align: start;
+	display: flex;
+	border-radius: 5px;
+	font-size: 17px;
+}
+.note strong:nth-child(3){
+	color: #F1A540;
+}
+span {
+	color: blue;
+}
+.right {
+	height: 100%;
+	width: 60%;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+.photo {
+	height: 75vh;
+	width: 40vw;
+}
+.photo img {
+	object-fit: cover;
+}
+.menu {
+	display: none;
+}
+.content2{
+	height: 30%;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box {
+	height: 50vh;
+	width: 45vw;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+
+}
+.box{
+	width: 42vw;
+	height: 50vh;
+	border-radius: 20px;
+	box-shadow: 1px 3px 9px 6px #7a7272;
+	background-color: rgb(136, 168, 187);
+}
+.inmini {
+	height: 47vh;
+	width: 40vw;
+	font-size: large;
+	font-weight: 450;
+}
+.content2 h1 {
+	color: rgb(118, 16, 161);
+}
+.inmini button {
+	width: 10vw;
+	height: 5vh;
+	background-color: rebeccapurple;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 5vh;
+}
+.inmini button:hover {
+	background-color: rgb(143, 117, 170);
+}
+.inmini h1 {
+	color: rgb(13, 96, 110);
+}
+.inmini strong {
+	color: rgb(16, 53, 7);
+	background-color: rgb(134, 185, 214);
+	border-radius: 5px;
+}
+.menu {
+	margin-left: 15vw;
+}
+.menu i {
+	font-size: 24px;
+}
+
+.footer {
+	height: 31%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+
+}
+.container {
+	background-color: rgb(165, 165, 165);
+	width: 85%;
+	height: 80%;
+	margin-top: 10.5vh;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom: 0.8px solid rgb(87, 85, 85);
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	justify-content: space-around;
+}
+.last-down {
+	background-color: black;
+	height: 7%;
+	width: 85%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	color: white;
+	font-size: 17px;
+}
+.profile {
+	height: 30vh;
+	width: 15vw;
+	border-radius: 50vh;
+}
+.profile img {
+	height: 30vh;
+	width: 15vw;
+	border-radius: 50vh;
+}
+.profile strong:nth-child(1){
+	color: rgb(20, 72, 214);
+}
+.profile span {
+	color: rgb(235, 224, 127);
+}
+.op {
+	border-radius: 20px;
+	margin-top: 5vh;
+}
+.op:hover {
+	background-color: rgb(78, 74, 74);
+}
+.op h1 {
+	color: rebeccapurple;
+}
+.icons {
+	height: 35vh;
+	width: 50vw;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	justify-content: space-around;
+	
+	
+}
+.icons i {
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: black;
+
+}
+.icons i:hover{
+	color: rgb(60, 122, 194);
+}
+.icons a {
+	text-decoration: none;
+	font-size: 9px;
+	color: black;
+	transition: 1s;
+}
+.icons a :hover{
+	color: rgb(60, 122, 194);
+	margin-top: 3vh;
+}
+
+
+@media (max-width:600px) {
+	html,body {
+		height: 220%;
+		width: 100%;
+	}
+	.main {
+		background-color: rgb(223, 158, 150);
+	}
+	.mobileviewer{
+		/* display: block; */
+		background-color: black;
+		width:100%;
+		height: 100%;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		/* display: flex; */
+		flex-direction: column;
+		position: absolute;
+		display: none;
+		background-color: rgb(0,0,0);
+		background-color: rgba(0,0,0, 0.9);
+		position: fixed;
+		z-index: 1;
+	}
+	.main{
+		left: 0px;
+		top: 0px;
+		z-index: -1;
+	}
+	.icon {
+		width: 13vw;
+		height: 10vh;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		margin-left: 78vw;
+		padding-top: 3vh;
+	}
+	.icon i {
+		font-size: 9vh;
+	}
+	.note {
+		/* background-color: yellowgreen; */
+		height: 50%;
+		width: 100%;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		margin-top: -4vh;
+		
+	}
+	.note a {
+		text-decoration: none;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 22px;
+		color: rgb(129, 124, 124);
+	}
+	.note a:hover{
+		color: rgb(226, 212, 212);
+	}
+	.icon i {
+		color: rgb(226, 212, 212);
+	}
+	.icon i:hover {
+		color: rgb(129, 124, 124);
+
+	}
+
+	/* strat here */
+	/* .mobileviewer{
+		display:block;
+	} */
+	.nav {
+		background-color: wheat;
+		height: 3%;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		display: flex;
+		justify-content: space-around;
+
+	}
+	.logo{
+		/* margin-left: -39vw; */
+		height: 10vh;
+		width: 38vw;
+	}
+	.logo img {
+		object-fit: cover;
+		height:10vh;
+		width: 38vw;
+	}
+
+	.navbox {
+		display: none;
+	}
+	.navbox a {
+		display: none;
+	}
+	
+	.menu {
+		display: block;
+		font-weight: 700;
+		font-size: 21px;
+		width: 8vw;
+		height: 5vh;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+	}
+	.content1 {
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		height: 49%;
+	}
+	/* .note {
+		background-color: khaki;
+		width: 90vw;
+	} */
+	.photo {
+		height: 70vh;
+		width: 100%;
+		align-items: center;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+	}
+	.photo img {
+		height: 70vh;
+		width: 70vw;
+		object-fit: cover;
+	}
+	.content2{
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+	.content2 .box {
+		height: 75vh;
+		width: 75vw;
+	}
+	.inmini {
+		height: 75vh;
+		width: 75vw;
+
+	}
+	.note strong:nth-child(1){
+		width: 30vw;
+		margin-top: -10vh;
+	}
+	.inmini button{
+		width: 30vw;
+	}
+	.footer {
+		background-color: rgb(230, 163, 155);
+	}
+
+	.container{
+		margin-top: 51vh;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		flex-wrap:wrap ;
+	}
+	.container .profile {
+		height: 20vh;
+		width: 30vw;
+	}
+	.profile img {
+		height: 20vh;
+		width: 30vw;
+	}
+	.op {
+		width: 100%;
+		margin-top: 26vh;
+		height: 30vh;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+	.icons {
+		
+		width: 100%;
+		height: 15vh;
+	}
+	.icons h2{
+		display: none;
+	}
+	.icons i {
+		font-size: 32px;
+	}
+	.profile h1{
+		
+		width: 50vw;
+		margin-left: -10vw;
+	}
+
+	
+}
