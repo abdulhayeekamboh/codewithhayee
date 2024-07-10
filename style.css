@@ -30,7 +30,7 @@ body {
 	display: flex;
 	justify-content: space-around;
 	border-bottom: 0.7px solid #dadada;
-	background-color:#eee;
+	background-color:yellow;
 }
 .logo {
 	height:19vh;
